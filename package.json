@@ -1,0 +1,28 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "description": "Frontend Course",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run webpack -config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EsmeraldiBejolli/Frontend.git"
+  },
+  "keywords": [
+    "frontend"
+  ],
+  "author": "esmeraldi.bejolli@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/EsmeraldiBejolli/Frontend/issues"
+  },
+  "homepage": "https://github.com/EsmeraldiBejolli/Frontend#readme",
+  "devDependencies": {
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.11.1"
+  }
+}
