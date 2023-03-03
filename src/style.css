@@ -29,7 +29,7 @@ body *{
 }
 
 [href="google.com"] {
-    color: chartreuse;
+    color: chartr""euse;
 }
 
 .l1,
@@ -48,8 +48,9 @@ body section .monkey {
     width: 200px;
 }
 
-@media screen and (max-width: 600px){
+@media screen and (min-width: 600px){
     h1 {
         font-size: 14px;
+        background-color: red;
     }
 }
